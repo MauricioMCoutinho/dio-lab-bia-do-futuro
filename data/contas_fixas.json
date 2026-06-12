@@ -1,0 +1,16 @@
+[
+  {
+    "nome": "Aluguel",
+    "categoria": "moradia",
+    "valor_estimado": 1500.00,
+    "dia_vencimento": 5,
+    "valor_variavel": false
+  },
+  {
+    "nome": "Conta de Luz",
+    "categoria": "moradia",
+    "valor_estimado": 200.00,
+    "dia_vencimento": 15,
+    "valor_variavel": true
+  }
+]
