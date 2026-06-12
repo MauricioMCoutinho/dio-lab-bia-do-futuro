@@ -1,0 +1,11 @@
+{
+  "familia": "Sobrenome da Família",
+  "renda_mensal_total": 8000.00,
+  "dia_fechamento": 30,
+  "alertas_ativos": true,
+  "limites_mensais": {
+    "alimentacao": 2000.00,
+    "lazer": 500.00,
+    "transporte": 600.00
+  }
+}
