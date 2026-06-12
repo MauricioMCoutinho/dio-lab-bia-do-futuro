@@ -1,6 +1,4 @@
-data,canal,tema,resumo,resolvido
-2025-09-15,chat,CDB,Cliente perguntou sobre rentabilidade e prazos,sim
-2025-09-22,telefone,Problema no app,Erro ao visualizar extrato foi corrigido,sim
-2025-10-01,chat,Tesouro Selic,Cliente pediu explicação sobre o funcionamento do Tesouro Direto,sim
-2025-10-12,chat,Metas financeiras,Cliente acompanhou o progresso da reserva de emergência,sim
-2025-10-25,email,Atualização cadastral,Cliente atualizou e-mail e telefone,sim
+data_hora,usuario,tema,mensagem_usuario,resposta_agente
+2026-06-10 09:30,Mãe,registro_gasto,"Gastei 150 no mercado no débito","Anotado! Previsão atualizada com sucesso."
+2026-06-11 14:15,Pai,consulta_previsao,"Como vamos fechar o mês?","Pelos meus cálculos, vamos fechar com R$ 300 sobrando.!"
+2026-06-12 18:20,Filho,limite,"Queria comprar um jogo de 200 reais hoje","O limite de lazer já está em 90%, recomendo esperar para comprar mês que vem, ou em uma outra promoção!"
