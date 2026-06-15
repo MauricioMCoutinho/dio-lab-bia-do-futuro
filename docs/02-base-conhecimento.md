@@ -33,7 +33,17 @@ Os dados originais, que eram focados em uma corretora de investimentos, foram to
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
 
-Os arquivos JSON e CSV são lidos em tempo real na inicialização da sessão. Eles são extraídos de seus formatos originais, formatados em texto estruturado (listas e tópicos legíveis) e passados diretamente no contexto da LLM, garantindo que o agente tenha acesso imediato ao cenário financeiro do mês antes de responder.
+Existem duas possibilidades, injetar os dados diretamente no prompt (Ctrl + C, Ctrl + V) ou carregar os arquivos via código, como no exemplo abaixo: 
+
+```Python
+import json
+import pandas as pd
+
+configuracoes = json.load(open("data/configuracoes_familia.json"))
+contas_fixas = json.load(open("data/contas_fixas.json"))
+historico = pd.read_csv("data/historico_atendimento.csv")
+transacoes = pd.read_csv("data/transacoes.csv")
+```
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
