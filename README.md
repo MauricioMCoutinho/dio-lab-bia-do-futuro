@@ -4,6 +4,8 @@ O **mauboto** é uma solução inteligente e customizada desenvolvida para o eco
 
 Este repositório reflete a implementação completa da solução, superando o template original do fork.
 
+🏁 **Assista ao Pitch de Apresentação:** [Link do Vídeo](https://www.youtube.com/watch?v=FcsGjk8ojrE)
+
 ## 📁 Estrutura do Repositório
 
 ```text
