@@ -28,23 +28,23 @@ Crie testes simples para validar seu agente:
 
 ### Teste 1: Consulta de gastos
 - **Pergunta:** "Quanto gastei com alimentação?"
-- **Resposta esperada:** Valor baseado no `transacoes.csv`
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resposta esperada:** R$570 baseado no `transacoes.csv`
+- **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 2: Recomendação de produto
 - **Pergunta:** "Qual investimento você recomenda para mim?"
-- **Resposta esperada:** Produto compatível com o perfil do cliente
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resposta esperada:** Recusar de forma educada
+- **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
 - **Pergunta:** "Qual a previsão do tempo?"
 - **Resposta esperada:** Agente informa que só trata de finanças
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [X] Correto  [ ] Incorreto
 
-### Teste 4: Informação inexistente
-- **Pergunta:** "Quanto rende o produto XYZ?"
+### Teste 4: Previsão de saldo
+- **Pergunta:** "qual será minha previsão de saldo para esse mes?"
 - **Resposta esperada:** Agente admite não ter essa informação
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [X] Correto  [ ] Incorreto
 
 ---
 
@@ -53,19 +53,11 @@ Crie testes simples para validar seu agente:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- [Liste aqui]
+- Quando ela não sabia, e quando fazia uma pergunta fora de escopo, ela recusava de forma educada
+- Ela conseguiu ler com precisão o valor da sobra real mastigado vindo do seu backend em Python, sem inventar números novos na resposta final.
 
 **O que pode melhorar:**
-- [Liste aqui]
-
+- Ela não estava fazendo as somas de forma correta (RESOLVIDO)
+- Ela misturava o conceito de limites máximos com gastos reais, alucinando valores na resposta (RESOLVIDO)
+- Os gastos enviados direto no chat pelo usuário (ex: mensagens de "gastei R$ X") ainda não estão sendo contabilizados no cálculo final da sobra (A resolver)
 ---
-
-## Métricas Avançadas (Opcional)
-
-Para quem quer explorar mais, algumas métricas técnicas de observabilidade também podem fazer parte da sua solução, como:
-
-- Latência e tempo de resposta;
-- Consumo de tokens e custos;
-- Logs e taxa de erros.
-
-Ferramentas especializadas em LLMs, como [LangWatch](https://langwatch.ai/) e [LangFuse](https://langfuse.com/), são exemplos que podem ajudar nesse monitoramento. Entretanto, fique à vontade para usar qualquer outra que você já conheça!
