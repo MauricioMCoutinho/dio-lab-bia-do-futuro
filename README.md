@@ -26,12 +26,16 @@ Este repositório reflete a implementação completa da solução, superando o t
 
 ## 🚀 Tecnologias Utilizadas
 
-* **Python 3** — Linguagem principal do ecossistema.
-* **Streamlit** — Interface de usuário ágil e interativa.
-* **Pandas** — Manipulação, filtragem e análise de dados estruturados.
-* **Requests** — Integração de chamadas de API e comunicação do agente.
+* **Ollama** - Infraestrutura local para execução, gerenciamento e serviço dos Modelos de Linguagem (LLMs).
+* **Python 3** - Linguagem principal do ecossistema.
+* **Streamlit** - Interface de usuário ágil e interativa.
+* **Pandas** - Manipulação, filtragem e análise de dados estruturados.
+* **Requests** - Integração de chamadas de API e comunicação do agente.
 
 ## 🛠️ Como Executar o Projeto
+**Certifique-se de ter o Ollama ativo:**
+
+**Instale o Ollama e garanta que o modelo configurado no código esteja disponível localmente (ex: ollama run ollama3).**
 
 1. **Clone o repositório:**
    ```bash
