@@ -21,9 +21,9 @@ Descreva se usou os arquivos da pasta [`data`](../data), por exemplo:
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
 Os dados originais, que eram focados em uma corretora de investimentos, foram totalmente reestruturados para refletir a rotina de um orçamento doméstico:
-* **`perfil_investidor.json`** virou **`configuracoes_familia.json`**: Removemos dados de risco e patrimônio e inserimos as regras do jogo da família (renda mensal, dia de fechamento do mês e limites de gastos por categoria).
-* **`produtos_financeiros.json`** virou **`contas_fixas.json`**: Excluímos os investimentos (CDB, Tesouro) e substituímos por despesas recorrentes (Aluguel, Luz, Internet) para viabilizar as projeções matemáticas do saldo.
-* **`historico_atendimento.csv`**: Foi adaptado para funcionar como um log de conversas de chat (quem falou, o que foi dito, e como o agente respondeu), permitindo que o bot mantenha o contexto do papo com a família.
+* **`perfil_investidor.json`** virou **`configuracoes_familia.json`**: Removido dados de risco e patrimônio e inserido as configurações da família (renda mensal, dia de fechamento do mês e limites de gastos por categoria).
+* **`produtos_financeiros.json`** virou **`contas_fixas.json`**: Excluido os investimentos (CDB, Tesouro) e substituído por despesas recorrentes (Aluguel, Luz, Internet) para viabilizar as projeções matemáticas do saldo.
+* **`historico_atendimento.csv`**: Foi adaptado para funcionar como um log de conversas de chat (quem falou, o que foi dito, e como o agente respondeu), permitindo que o bot mantenha o contexto da conversa com a família.
 * **`transacoes.csv`**: A estrutura foi mantida, mas os dados fictícios foram atualizados para simular saídas comuns de uma casa (supermercado, farmácia, assinaturas de streaming).
 
 ---
